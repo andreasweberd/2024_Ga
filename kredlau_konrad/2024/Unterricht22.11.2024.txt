@@ -73,7 +73,7 @@ Seite 489 - Aufgabe 2:
 
             3. Schritt: Berechnen des Speicherbedarfes
 
-            1200000 Bestellungen + 176 Byte
+            1200000 Bestellungen * 176 Byte
             = 211200000 Byte
 
                 Umrechnung in Kilobyte:
