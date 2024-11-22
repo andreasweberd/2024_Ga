@@ -10,5 +10,7 @@ jeden monat gibts 5 bestelleung und fur jede bestellugen brauchen wir 176
 montalich brauchen wir = 176 x 5 bytes = 880 bytes
 zeitraum von 20 jahren wird = 880 x 240 = 211200 bytes
 
-in megabytes = 211200/1000 = 0.2112 MB
-in mebibytes = 211200/1024 = 0.201 MiB
+in megabytes = 211200/(1000*1000) = 0.2112 MB
+in mebibytes = 211200/(1024*1024) = 0.2014 MiB
+für 1000 kunden = 211 MB
+                = 201.1 MiB  
