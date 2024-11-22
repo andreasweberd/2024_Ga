@@ -26,7 +26,6 @@ Dateigröße einer Videodatei ergibt sich aus:
             : 1024
             = 601,834869384765625 Megabyte
 
-
 Seite 480 - Kompetenzcheck:
     a) Richtig. Das Verfahren, mit dem Audiodaten digitalisiert werden, nennt sich Sampling. 
     Dabei werden analoge Signale in digitale Datenpunkte umgewandelt.
