@@ -1,0 +1,3 @@
+Dateigröße einer Audiodatei ergibt sich aus:
+Zeit (s) * Kanäle (int) * Auflösung (bit) * Abtastrate (Hz)
+
