@@ -92,5 +92,5 @@ Seite 489 - Aufgabe 2:
                     = 201,416015625 Mebibyte
 
     ERGEBNIS:
-        Speicherbedarf in Megabyte: 211,2
-        Speicherbedarf in Mebibyte: 201,416015625 
+        Speicherbedarf in Megabyte: 211,2 MB
+        Speicherbedarf in Mebibyte: 201,42 MiB
