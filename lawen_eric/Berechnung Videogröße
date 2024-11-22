@@ -1,0 +1,13 @@
+Bilder:
+
+(1024px x 1024px) x 16bit x (10s x 30fps) = 5.033.164.800bit = 629145600Byte = 614400KB = 600 MB
+
+
+Audio:
+
+16bit x 44.100Hz x 10s x 2 (Kanäle) = 14112000bit = 1764000 Byte = 1.722,65 KB = 1,68 MB
+
+
+Video Gesamt:
+
+600MB + 1,68MB = 601,68 MB 
