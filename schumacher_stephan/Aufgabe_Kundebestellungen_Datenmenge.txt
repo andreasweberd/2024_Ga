@@ -1,0 +1,25 @@
+Rechnung 
+
+ 
+
+Bestellungen Gesamtkunden und Gesamtzeitraum:    5*12*20*1000 = 1.200.000 Gesamtbestellungen aller Kunden für 20 Jahre 
+
+Datenmenge aller Gesamtbestellungen: 
+
+ID = 4 Byte*1.200.000 = 4.800.000 Bytes 
+
+Datum = 4 Byte*1.200.000 = 4.800.000 Bytes 
+
+Artikelname = 30 Byte*1.200.000 = 36.000.000 Bytes 
+
+Menge = 8 Bytes*1.2000.000 = 9.600.000 Bytes 
+
+Kundenname= 30 Byte*1.200.000 = 36.000.000 Bytes 
+
+Bemerkungen = 100 Byte*1.200.000 = 120.000.000 Bytes 
+
+Gesamtrechnung = 211.200.000 Bytes  
+
+MiB Rechnung = 211.200.000 Bytes/1024/1024 = 201,416015625 MiB 
+
+MB Rechnung = 211.200.000 Bytes/1000/1000 = 211,200 MB 
