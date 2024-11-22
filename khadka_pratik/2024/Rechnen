@@ -1,0 +1,11 @@
+Audio 44,1 khz, 16 bit, 2 Kanäle
+Video 1024 x 1024, Zeit 10s, 16 bit , 30 fps
+
+Größe = Bitrate x Zeit 
+
+Audio
+44,1 khz x 16 bit x 2 x 30 =  40.3 MB
+Video 
+1024 x 1024 x 3= 3145728 bytes
+600MB
+total 640.3MB
