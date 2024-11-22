@@ -1,0 +1,23 @@
+((5 x 12) x 20) x 1000 = 1.200.000 Bestellungen
+
+Speicherplatz einer Bestellung in MB:
+
+4 x 4 x 30 x 8 x 30 x 100 = 11.520.000 Byte = 11.520 KB = 11,52 MB
+
+Gesamtspeicherplatz in MB:
+
+11,52 MB x 1.200.000 = 13.824.000 MB
+
+Speicherplatz einer Bestellung in MiB:
+
+4 x 4 x 30 x 8 x 30 x 100 = 11.520.000 Byte
+
+11.520.000 / 1024 = 11.250 Kib
+
+11.250 / 1024 = 10,98 Mib
+
+Gesamtspeicherplatz in MiB:
+
+10,98 Mib x 1.200.000 = 13.183.593 Mib
+
+

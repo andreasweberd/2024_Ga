@@ -1,0 +1,16 @@
+20 Jahre in Monaten
+20 x 12 = 240 Monate
+
+Bestellungen pro Monat
+240 x 5 = 1200
+
+Mal 1000 Kunden
+1200 x 1000 = 1,2mil Bestellungen
+
+Byte pro Bestellung die gespeichert werden müssen
+4 + 4 + 30 + 8 +30 + 100 = 176 Byte
+
+byte die man braucht für die Speicherung aller Bestellungen der 20 Jahre
+= 211200000 Byte durch 1 mil = 211,2 MegaByte
+#Anzahl der Bytes teilen durch einen MiB
+= 211200000 / 1048576 = 201,4 MibiByte
