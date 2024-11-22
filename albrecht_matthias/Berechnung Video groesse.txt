@@ -1,9 +1,9 @@
 Video 1024 x 1024, 16 Bit farbtiefe, 30fps, davon 10 sek
-#Alles addieren, ergebnis durch 1 mil, dann durch 8
+#Alles addieren, ergebnis durch 1 mil
 = 5033 Mega bit
 
 Audio 44,1 kHz, 16 Bit, 2 kanäle
-#Alles addieren, ergebnis durch 1 mil, dann durch 8
+#Alles addieren, ergebnis durch 1 mil
 = 1,4 mega bit
-
+#Megabit durch 8 teilen
 =5034megabit = 629 Megabyte
