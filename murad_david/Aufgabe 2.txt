@@ -1,0 +1,5 @@
+Ein Kunde macht im Schnitt 5 Bestellungen im Monat. In 20 Jahren sind das 1200 Bestellungen pro Kunde. Bei 1000 Kunden kommen wir dann auf insgesamt 1,2 Millionen Bestellungen. Multipliziert mit 176 Byte pro Bestellung ergibt das 211.200.000 Byte.
+
+Das sind umgerechnet 211,2 MB (wenn man 1 MB = 1.000.000 Byte nimmt) oder etwa 201,46 MiB (bei 1 MiB = 1.048.576 Byte).
+
+Also braucht man rund 211 MB oder 201 MiB Speicherplatz, um alle Bestellungen zu speichern. 
