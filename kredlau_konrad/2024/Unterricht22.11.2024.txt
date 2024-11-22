@@ -40,3 +40,57 @@ Seite 480 - Kompetenzcheck:
     Mehrere Kanäle können für ein räumlicheres Klangbild sorgen, wie bei Stereo oder Surround-Sound.
 
     e) Falsch. Für Stereo werden zwei Kanäle verwendet, nicht nur einer. Einer für den linken und einer für den rechten Lautsprecher.
+
+
+Seite 489 - Aufgabe 2:
+
+        Es sollen von 1000 Kunden die Bestellungen über einen Zeitraum von 20 Jahren gespeichert werden. Gegeben sind folgende Fakten: 
+            • Ein Kunde gibt pro Monat im Schnitt fünf Bestellungen auf.
+            • Daten pro Bestellung: ID (4 Byte), Datum (4 Byte), Artikelname (30 Byte), Menge (8Byte), Kundenname (30 Byte), Bemerkungen (100 Byte) 
+        Berechnen Sie den Speicherbedarf in MB und in MiB.
+
+        Lösung:
+
+            1. Schritt: Aufschlüsselung des Kundenvolumens
+
+            Pro Kunde 5 Bestellungen im Monat (aufs Jahr hochgerechnet) = 5 * 12
+            = 60 Bestellungen pro Jahr und pro Kunde
+            Über 20 Jahre heißt das: 60 Bestellungen * 20 Jahre
+            = 1200
+            Bedeutet für 1000 Kunden = 1200 * 1000
+            = 1200000
+
+            2. Schritt: Berechnung der benötigten Datenmenge
+
+                ID = 4 Byte
+                Datum = 4 Byte
+                Artikelname = 30 Byte
+                Menge = 8 Byte
+                Kundenname = 30 Byte
+                Bemerkungen = 100 Byte
+                = 4 + 4 + 30 + 8 + 30 + 100
+                = 176 Byte
+
+            3. Schritt: Berechnen des Speicherbedarfes
+
+            1200000 Bestellungen + 176 Byte
+            = 211200000 Byte
+
+                Umrechnung in Kilobyte:
+                    211200000 / 1000
+                    = 211200 Kilobyte
+                Umrechnung in Megabyte:
+                    211200 / 1000
+                    = 211,2 Megabyte
+
+                Umrechnung in Kibibyte:
+                    211200000 / 1024
+                    = 206250 Kibibyte
+
+                Umrechnung in Mebibyte:
+                    206250 / 1024
+                    = 201,416015625 Mebibyte
+
+    ERGEBNIS:
+        Speicherbedarf in Megabyte: 211,2
+        Speicherbedarf in Mebibyte: 201,416015625 
