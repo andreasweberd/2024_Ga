@@ -1,0 +1,22 @@
+Berechnung Videodatei:
+
+Länge: 1024 px
+Breite: 1024 px
+Farbtiefe: 16 bit
+30 FPS
+Zeit: 10s
+2 Audiokanäle
+davon 16 bit
+Abtastrate: 48100 Hz
+
+((1024 * 1024) * 16 * (30 * 10) + (10 * 2 * 16 * 48100))
+= 5048556800
+            
+    5048556800 / 8
+    = 631069600 Byte
+
+    5048556800 / 1024
+    = 616278,90625 Kilobyte
+
+    5048556800 / 1024
+    = 601,834869384765625 Megabyte
