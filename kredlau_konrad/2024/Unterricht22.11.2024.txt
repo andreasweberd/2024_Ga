@@ -25,3 +25,18 @@ Dateigröße einer Videodatei ergibt sich aus:
             = 616278,90625 Kilobyte
             : 1024
             = 601,834869384765625 Megabyte
+
+
+Seite 480 - Kompetenzcheck:
+    a) Richtig. Das Verfahren, mit dem Audiodaten digitalisiert werden, nennt sich Sampling. 
+    Dabei werden analoge Signale in digitale Datenpunkte umgewandelt.
+
+    b) Falsch. Die Tonhöhe ergibt sich aus der Frequenz des Signals, nicht aus der zeitlichen Verteilung der Amplituden.
+
+    c) Falsch. Die Sampling-Rate bestimmt, wie oft ein Audiosignal pro Sekunde abgetastet wird. 
+    Die Anzahl der Bit pro Sample wird durch die Bit-Tiefe bestimmt, nicht durch die Sampling-Rate.
+
+    d) Richtig. Die Anzahl der Tonkanäle beeinflusst das Hörerlebnis.
+    Mehrere Kanäle können für ein räumlicheres Klangbild sorgen, wie bei Stereo oder Surround-Sound.
+
+    e) Falsch. Für Stereo werden zwei Kanäle verwendet, nicht nur einer. Einer für den linken und einer für den rechten Lautsprecher.
