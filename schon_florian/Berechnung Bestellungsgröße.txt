@@ -1,5 +1,5 @@
 Berechnung Dateigröße
 Anzahl Kundenbestellungen * Dateigröße
-1000*20*5*(4+4+30+8+30+100) = 17.600.000 bit = 2.200.000 byte
-Megabyte: 2.200.000 / 1000 / 1000 = 2,2 Megabyte
-Mebibyte: 2.200.000 / 1024 / 1024 = 2,098 Mebibyte
+1000*20*12*5*(4+4+30+8+30+100) = 26.400.000 byte
+Megabyte: 26.400.000 / 1000 / 1000 = 26,4 Megabyte
+Mebibyte: 26.400.000 / 1024 / 1024 = 25,18 Mebibyte
