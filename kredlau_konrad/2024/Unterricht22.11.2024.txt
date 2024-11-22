@@ -1,3 +1,27 @@
 Dateigröße einer Audiodatei ergibt sich aus:
 Zeit (s) * Kanäle (int) * Auflösung (bit) * Abtastrate (Hz)
 
+Dateigrößer einer Bilddatei ergibt sich aus:
+(Länge (inch) * Auflösung (dpi)) * (Breite (inch) * Auflösung (dpi)) * Farbtiefe (bit)
+
+Dateigröße einer Videodatei ergibt sich aus:
+((Länge * Breite) * Farbtiefe * (FPS * Zeit)) + (Zeit * Kanäle * Auflösung * Abtastrate) 
+
+    Rechnung:
+        Länge: 1024 Pixel
+        Breite: 1024 Pixel
+        Farbtiefe: 16 bit
+        FPS: 30
+        Zeit: 10 Sekunden
+        Kanäle: 2
+        Auflösung der Audiodatei: 16 bit
+        Abtastrate: 48100 Hz
+
+        ->  ((1024 * 1024) * 16 * (30 * 10) + (10 * 2 * 16 * 48100))
+            = 5048556800
+            :8
+            = 631069600 Byte
+            : 1024
+            = 616278,90625 Kilobyte
+            : 1024
+            = 601,834869384765625 Megabyte
