@@ -1,0 +1,5 @@
+10 Sekunden * (1024 Pixel *1024 Pixel) * 30 Bilder pro Sekunde (FPS) *16 Bit Farbtiefe + 10 Sekunden * 2 Kanäle * 16 Bit Auflösung * 44,1 khz Abtastrate  
+
+= 629.145.600 Bytes Videospur + 1.764 Bytes Audiospur = 629.147.364 Bytes  
+
+= 600 Mebibytes 
