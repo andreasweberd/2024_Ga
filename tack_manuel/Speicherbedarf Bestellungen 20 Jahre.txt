@@ -1,0 +1,22 @@
+1000 Kunden
+5 Bestellungen pro Kunde pro Monat
+
+Bestellung:
+ID (4 Byte)
+Datum (4 Byte)
+Artikelname (30 Byte)
+Menge (8 Byte)
+Kundenname (30 Byte)
+Bemerkungen (100 Byte)
+
+Datengröße pro Bestellung: 4 + 4 + 30 + 8 + 30 + 100 = 176 Byte
+Bestellungen pro Monat: 5000
+Datengröße pro Monat: 176 * 5000 = 880000 Byte
+Datengröße pro Jahr: 880000 * 12 = 10560000 Byte
+Datengröße für 20 Jahre: 10560000 * 20 = 211200000
+
+In Kilobyte: 211200000/1000 = 211200 KB
+In Megabyte: 211200/1000 = 211,2 MB
+
+In Kibibyte: 211200000/1024 = 206250 KiB
+In Mebibyte: 206250/1024 = 201,42 MiB
