@@ -5,11 +5,23 @@
         iii.) Fortlaufende Aufgaben
 
 
-2.)
+2.) Beschreiben Sie kurz, wodurch sich ein Projekt von Routineaufgaben unterscheidet.
 
         i.) Routineaufgaben sind so strukturiert, dass sie von den Mitarbeitern problemlos durchgeführt und wiederholt werden können, wodurch 
         sie sich auch für Automatisierung eignen. Im Gegensatz dazu sind Projekte einmalige Vorhaben, 
         die einen definierten Anfangs- und Endzeitpunkt habenund detailliert hinsichtlich finanzieller, personeller und 
         zeitlicher Ressourcen geplant werden müssen.
 
-3.)
+3.) Nennen Sie drei Projektinstanzen und deren generelle Aufgabe innerhalb von größeren Projekten.
+        1. Lenkungsausschuss: Diese Instanz erteilt den Projektauftrag und genehmigt die Ziele und Planungen. 
+        Außerdem überwacht sie den Fortschritt, setzt Prioritäten und trifft grundlegende Entscheidungen.
+
+        2. Projektleitung: Die Projektleitung, eventuell aufgeteilt in verschiedene Leitungsteams für unterschiedliche Projektabschnitte,
+         berichtet dem Lenkungsausschuss über den Fortschritt des Projekts und verteilt die Aufgaben an die entsprechenden Teams.
+
+        3. Projektteam: Das Projektteam ist für die praktische Umsetzung des Projekts verantwortlich. 
+        Die Teammitglieder werden in der Regel entsprechend ihrer Stärken und Spezialisierungen auf verschiedene Aufgaben verteilt.
+
+4.) Die Projektphasen 
+
+        Start -> Planung -> Durchführung -> Kontrolle -> Projektabschluss/Ende 
