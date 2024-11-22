@@ -1,11 +1,14 @@
-Audio 44,1 khz, 16 bit, 2 Kanäle
-Video 1024 x 1024, Zeit 10s, 16 bit , 30 fps
+1000 Kunden
+zeitraum 20 jahren, im monat = 20 x 12 = 240 monaten
+bestellung(B)
+bestelleungsrate pro monat(M) [B/M ] = 5
+Pro bestellung sind die daten:
+ID 4 byte, Datum 4 Byte, Artikelname 30 Byte, Menge 8 Byte, Kundename 30 Byte, Bemerkungen (100 Byte)
+Insgesamt byte verbraucht: 4 + 4 + 30 + 8 + 30 + 100 = 176 bytes
 
-Größe = Bitrate x Zeit 
+jeden monat gibts 5 bestelleung und fur jede bestellugen brauchen wir 176 
+montalich brauchen wir = 176 x 5 bytes = 880 bytes
+zeitraum von 20 jahren wird = 880 x 240 = 211200 bytes
 
-Audio
-44,1 khz x 16 bit x 2 x 30 =  40.3 MB
-Video 
-1024 x 1024 x 3= 3145728 bytes
-600MB
-total 640.3MB
+in megabytes = 211200/1000 = 211.2 MB
+in mebibytes = 211200/1024 = 206.25 MiB
