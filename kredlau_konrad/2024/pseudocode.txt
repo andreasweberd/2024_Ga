@@ -1,0 +1,8 @@
+Eingabe: endwert
+produkt = 1
+Von i = 1 bis zum endwert
+    Wenn i modulo 5 = 0 ODER i module 7 = 0 dann mache
+        produkt = produkt * i
+    Ende Verzweigung
+Ende Schleife
+Ausgabe: produkt
