@@ -2,13 +2,8 @@
 print("Hello World")
 
 #For-Schleife von 0 bis 4000
-for i in range(1, 4001):
+for i in range(0, 4000):
     print(f"{i} Hello World")
-
-i = 0
-while(i < 4000):
-    print(f"{i} Hello World")
-    i += 1
 
 class hallo():
 
