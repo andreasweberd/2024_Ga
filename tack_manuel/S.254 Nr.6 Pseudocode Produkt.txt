@@ -1,4 +1,4 @@
-funktion produkt(Endwert)
+funktion produkt(Endwert) {
     Wenn(Endwert < 1) {
         Ausgabe: Fehler
     }
@@ -9,3 +9,4 @@ funktion produkt(Endwert)
         }
         Startwert = Startwert + 1
     }
+}
