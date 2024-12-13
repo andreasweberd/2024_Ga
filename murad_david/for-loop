@@ -1,0 +1,4 @@
+# Dieses Programm gibt "Hallo, Welt!" 4000-mal aus, mit Nummern.
+
+for i in range(4000):
+    print("Iteration", i + 1, ": Hello, World!")
