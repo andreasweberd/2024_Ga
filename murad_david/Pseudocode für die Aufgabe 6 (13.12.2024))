@@ -1,0 +1,14 @@
+BEGIN
+    Output "Enter the end value:"
+    Read end_value
+
+    product = 1
+
+    for i = 1 to end_value
+        if i modulo 5 = 0 and i modulo 7 = 0 then
+            product = product * i
+        end if
+    end for
+
+    Output "The product of all numbers divisible by 5 and 7 is: ", product
+END

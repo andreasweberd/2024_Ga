@@ -1,0 +1,12 @@
+funktion produkt(Endwert)
+    Startwert = 1
+    Produkt = 1
+    Wiederhole solange
+    Startwert <= Endwert
+        Wenn Startwert % 5 == 0 UND Startwert % 7 == 0 dann
+            Produkt = Produkt * Startwert
+        Startwert = Startwert + 1
+    Wenn Produkt == 1 dann
+        Ausgabe: 0
+    sonst
+        Ausgabe: Produkt

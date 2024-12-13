@@ -1,0 +1,15 @@
+endwert = int 100
+
+x = 1
+
+while (i < endwert, i++) {
+    if (i % 5 == 0 AND i % 7 == 0) {
+        x = x * i
+        return x
+    }
+        else {
+            continue
+        }
+}
+
+print x

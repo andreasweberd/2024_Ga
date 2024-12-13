@@ -1,0 +1,10 @@
+Eingabe user (n)
+
+while(i <= n) {
+    if (i modulo 7 == 0 && i modulo 5 == 0){
+        print(i)
+        let sum *= i
+    }
+}
+
+print("Das Produkt aller Zahlen des Zahlenbereichs, welche durch 7 und durch 5 teilbar sind ist: ", sum);
