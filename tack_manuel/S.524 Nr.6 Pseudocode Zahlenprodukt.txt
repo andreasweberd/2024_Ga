@@ -1,6 +1,4 @@
 funktion produkt(Endwert)
-    Wenn Endwert < 1 dann
-        Ausgabe: "Fehler"
     Startwert = 1
     Produkt = 1
     Wiederhole solange
@@ -8,4 +6,7 @@ funktion produkt(Endwert)
         Wenn Startwert % 5 == 0 UND Startwert % 7 == 0 dann
             Produkt = Produkt * Startwert
         Startwert = Startwert + 1
-    Ausgabe: Produkt
+    Wenn Produkt == 1 dann
+        Ausgabe: 0
+    sonst
+        Ausgabe: Produkt
