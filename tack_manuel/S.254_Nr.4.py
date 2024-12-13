@@ -2,7 +2,7 @@ def ImageSize(a, hpx, bpx, ft):
     ap = hpx * bpx
     g = ap * ft
     G = g * a
-    GMiB = round(G/1024/1024, 2)
+    GMiB = round(G/1024/1024/8, 2)
     return GMiB
 
 #Testfälle
