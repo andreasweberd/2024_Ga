@@ -11,3 +11,5 @@ while (i < endwert, i++) {
             continue
         }
 }
+
+print x
