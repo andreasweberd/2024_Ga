@@ -37,3 +37,15 @@ farbtiefe = int(input("Geben Sie die Farbtiefe pro Pixel in Bit ein: "))
 
 speicherbedarf = berechne_speicherbedarf(anzahl_bilder, hoehe, breite, farbtiefe)
 print(f"Der Speicherbedarf beträgt {speicherbedarf:.2f} MiB")
+
+verkürzt
+
+def berechne_speicher(anz, h, b, farb):
+    return anz * h * b * farb / (8 * 1024**2)
+
+anz = int(input("Anzahl der Bilder: "))
+h = int(input("Höhe in Pixeln: "))
+b = int(input("Breite in Pixeln: "))
+farb = int(input("Farbtiefe in Bit: "))
+
+print(f"Speicherbedarf: {berechne_speicher(anz, h, b, farb):.2f} MiB")
