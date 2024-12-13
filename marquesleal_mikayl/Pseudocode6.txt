@@ -1,0 +1,9 @@
+Eingabe: Endwert
+
+Produkt = 1
+
+Für i von 1 bis Endwert:
+    Wenn i % 5 == 0 und i % 7 == 0:
+        Produkt = Produkt * i
+
+Ausgabe: Produkt
