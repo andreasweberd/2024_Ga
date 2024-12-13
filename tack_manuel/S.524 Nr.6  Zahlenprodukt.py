@@ -12,3 +12,5 @@ def produkt(Endwert):
 
 if __name__ == "__main__":
     print(produkt(10))
+    print(produkt(100))
+    print(produkt(1000))
