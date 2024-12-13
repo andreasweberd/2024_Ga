@@ -1,0 +1,12 @@
+funktion produkt(Endwert) {
+    Wenn(Endwert < 1) {
+        Ausgabe: Fehler
+    }
+    Startwert = 1
+    Solange(Startwert < Endwert) {
+        Wenn(Startwert % 5 == 0 UND Startwert % 7 == 0) {
+            Ausgabe: Startwert
+        }
+        Startwert = Startwert + 1
+    }
+}

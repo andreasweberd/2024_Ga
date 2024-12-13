@@ -1,0 +1,15 @@
+def calculate_storage():
+    num_images = int(input("Enter the number of images: "))
+    height = int(input("Enter the height of an image (in pixels): "))
+    width = int(input("Enter the width of an image (in pixels): "))
+    color_depth = int(input("Enter the color depth per pixel (in bits): "))
+
+    storage_per_image = height * width * color_depth / 8
+
+    total_storage = storage_per_image * num_images
+
+    total_storage_mib = total_storage / (1024 * 1024)
+
+    print(f"The total storage required is: {total_storage_mib:.2f} MiB")
+
+calculate_storage()
