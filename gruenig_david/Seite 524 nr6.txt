@@ -15,3 +15,28 @@ Start
 
     Ausgabe: Produkt
 Ende
+
+
+Start
+    Eingabe: Endwert
+    falls Endwert <= 1 dann
+        Ausgabe: "Endwert muss größer als 1 sein."
+        Ende
+    ende falls
+
+    Produkt = 1
+    gefunden = falsch
+
+    für i von 1 bis Endwert
+        falls i modulo 5 == 0 und i modulo 7 == 0 dann
+            Produkt = Produkt * i
+            gefunden = wahr
+        ende falls
+    ende für
+
+    falls gefunden dann
+        Ausgabe: "Das Produkt aller Zahlen, die sowohl durch 5 als auch durch 7 teilbar sind, beträgt: " + Produkt
+    sonst
+        Ausgabe: "Keine Zahlen gefunden, die sowohl durch 5 als auch durch 7 teilbar sind."
+    ende falls
+Ende
