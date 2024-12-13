@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 endwert==x
 i==1
 produkt==1
@@ -9,4 +10,17 @@ while (i < x):
 if (produkt = 1):
 	print ('In diesem Bereich waren keine Zahlen, welche durch 5 und 7 teilbar sind)
 else:	
+=======
+endwert==x
+i==1
+produkt==1
+
+while (i < x):
+	if (i mod 5 ==0 and i mod 7 == 0):
+		produkt == produkt * i
+	i += 1
+if (produkt = 1):
+	print ('In diesem Bereich waren keine Zahlen, welche durch 5 und 7 teilbar sind)
+else:	
+>>>>>>> 177074ff19a2455f03dc53e7ea2c9e0e88fdf2f5
 	print ('Das Produkt aller Zahlen die durch 5 und 7 teilbar sind ist:', produkt)
