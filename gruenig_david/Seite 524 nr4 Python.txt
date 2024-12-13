@@ -1,0 +1,39 @@
+def berechne_speicherbedarf(anzahl_bilder, hoehe, breite, farbtiefe):
+    """
+    Diese Funktion berechnet den Speicherbedarf für digitale Bilder und gibt das Ergebnis in MiB zurück.
+    
+    Parameter:
+    anzahl_bilder (int): Anzahl der Bilder
+    hoehe (int): Höhe eines Bildes in Pixeln
+    breite (int): Breite eines Bildes in Pixeln
+    farbtiefe (int): Farbtiefe pro Pixel in Bit
+
+    Rückgabewert:
+    float: Gesamtspeicherbedarf in MiB
+    """
+    
+    # Berechne die Anzahl der Pixel pro Bild
+    gesamt_pixel = hoehe * breite
+    
+    # Berechne die Gesamtzahl der Bits pro Bild
+    gesamt_bits = gesamt_pixel * farbtiefe
+    
+    # Umrechnung von Bits in Bytes
+    gesamt_bytes = gesamt_bits / 8
+    
+    # Umrechnung von Bytes in MiB
+    gesamt_mb = gesamt_bytes / (1024 * 1024)
+    
+    # Berechne den Gesamtspeicherbedarf für alle Bilder
+    gesamt_speicher = gesamt_mb * anzahl_bilder
+    
+    return gesamt_speicher
+
+# Beispielaufruf der Funktion
+anzahl_bilder = int(input("Geben Sie die Anzahl der Bilder ein: "))
+hoehe = int(input("Geben Sie die Höhe eines Bildes in Pixeln ein: "))
+breite = int(input("Geben Sie die Breite eines Bildes in Pixeln ein: "))
+farbtiefe = int(input("Geben Sie die Farbtiefe pro Pixel in Bit ein: "))
+
+speicherbedarf = berechne_speicherbedarf(anzahl_bilder, hoehe, breite, farbtiefe)
+print(f"Der Speicherbedarf beträgt {speicherbedarf:.2f} MiB")
