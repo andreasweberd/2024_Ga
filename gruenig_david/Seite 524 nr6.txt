@@ -1,0 +1,17 @@
+Start
+    Eingabe: Endwert
+    falls Endwert <= 1 dann
+        Ausgabe: "Endwert muss größer als 1 sein."
+        Ende
+    ende falls
+
+    Produkt = 1
+
+    für i von 1 bis Endwert
+        falls i modulo 5 == 0 und i modulo 7 == 0 dann
+            Produkt = Produkt * i
+        ende falls
+    ende für
+
+    Ausgabe: Produkt
+Ende
