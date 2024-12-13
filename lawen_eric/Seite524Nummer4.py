@@ -7,8 +7,8 @@ pixelGesamt = pixelHöhe * pixelBreite
 
 speicherPlatzBild = pixelGesamt * farbTiefe
 
-speicherPlatzGesamt = speicherPlatzBild * anzahlBilder / 8
+speicherPlatzGesamtinByte = speicherPlatzBild * anzahlBilder / 8
 
-speicherPlatzGesamtInMib = speicherPlatzGesamt / (1024 * 1024)
+speicherPlatzGesamtInMib = speicherPlatzGesamtinByte / (1024 * 1024)
 
 print (speicherPlatzGesamtInMib, "Mib")
