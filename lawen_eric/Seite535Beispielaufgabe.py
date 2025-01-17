@@ -1,14 +1,14 @@
 inputcount = int(input("Anzahl der Eingaben: "))
 
-array = []
+inputarray = []
 
 def eingabe():
     for x in range(inputcount):
-        array.append(float(input("Temperaturwert "+str(x+1)+": ")))
+        inputarray.append(float(input("Temperaturwert "+str(x+1)+": ")))
 
-def average(x):
-    return sum(x)/len(x)
+def average(array):
+    return sum(array)/len(array)
 
 eingabe()
 
-print("Durschnittstemperatur: "+str(average(array)))
+print("Durschnittstemperatur: "+str(average(inputarray)))
