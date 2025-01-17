@@ -1,0 +1,25 @@
+bruttolohn = float(input("Geben Sie den Bruttolohn in Euro ein: "))
+
+lohnsteuer_satz = 0.30  # 30% Lohnsteuer
+solidaritaetszuschlag_satz = 0.055  # 5,5% des Lohnsteuer
+krankenversicherung_satz = 0.073  # 7,3% des Bruttolohns
+rentenversicherung_satz = 0.093  # 9,3% des Bruttolohns
+arbeitslosenversicherung_satz = 0.012  # 1,2% des Bruttolohns
+
+lohnsteuer = bruttolohn * lohnsteuer_satz
+solidaritaetszuschlag = lohnsteuer * solidaritaetszuschlag_satz
+krankenversicherung = bruttolohn * krankenversicherung_satz
+rentenversicherung = bruttolohn * rentenversicherung_satz
+arbeitslosenversicherung = bruttolohn * arbeitslosenversicherung_satz
+
+gesamtabzug = lohnsteuer + solidaritaetszuschlag + krankenversicherung + rentenversicherung + arbeitslosenversicherung
+nettolohn = bruttolohn - gesamtabzug
+
+print(f"Bruttolohn: {bruttolohn:.2f} €")
+print(f"Lohnsteuer (30%): {lohnsteuer:.2f} €")
+print(f"Solidaritätszuschlag (5,5% der Lohnsteuer): {solidaritaetszuschlag:.2f} €")
+print(f"Krankenversicherung (7,3% des Bruttolohns): {krankenversicherung:.2f} €")
+print(f"Rentenversicherung (9,3% des Bruttolohns): {rentenversicherung:.2f} €")
+print(f"Arbeitslosenversicherung (1,2% des Bruttolohns): {arbeitslosenversicherung:.2f} €")
+print(f"Gesamtabzüge: {gesamtabzug:.2f} €")
+print(f"Nettolohn: {nettolohn:.2f} €")
