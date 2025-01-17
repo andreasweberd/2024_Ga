@@ -1,0 +1,35 @@
+START
+    # Eingabe des Endwerts durch den Benutzer
+    INPUT endwert
+    # Überprüfen, ob der Endwert größer als 1 ist
+    IF endwert <= 1 THEN
+        PRINT "Endwert muss größer als 1 sein"
+        EXIT
+    END IF
+
+   # Initialisierung der Produktvariablen
+    produkt = 1
+
+   # Schleife von 1 bis zum Endwert
+    FOR i = 1 TO endwert DO
+        # Überprüfen, ob i durch 5 oder 7 teilbar ist
+        IF i MOD 5 == 0 OR i MOD 7 == 0 THEN
+            # Multiplikation der teilbaren Zahl zum Produkt
+            produkt = produkt * i
+        END IF
+    END FOR
+
+    # Ausgabe des Ergebnisses
+    PRINT "Das Produkt aller Zahlen, die durch 5 oder 7 teilbar sind, ist: ", produkt
+END
+
+
+endwert = int(input("Bitte einen Endwert >1 eingeben")
+if endwert <= 1:
+     print("Endwert muss größer als 1 sein")
+else:
+     produkt = 1
+     for i in range(1, endwert + 1):
+         if i % 5 == 0 or i % 7 ==0:
+               produkt *= i
+     print("Das Produkt aller Zahlen, die durch 5 oder 7 teilbar sind, ist:", produkt)
