@@ -1,11 +1,13 @@
 try:    
-    inputcount = int(input("Anzahl der Eingaben: "))
+    #inputcount = int(input("Anzahl der Eingaben: "))
 
     inputarray = []
 
     def eingabe():
-        for x in range(inputcount):
-            inputarray.append(float(input("Temperaturwert "+str(x+1)+": ")))
+        x = 1
+        while True:
+            inputarray.append(float(input("Temperaturwert "+str(x)+": ")))
+            x += 1
 
     def average(array):
         return sum(array)/len(array)
@@ -16,6 +18,4 @@ try:
 except:
     print("Fehlerhafte Eingabe! Eingabe ist keine gültige Zahl!")
 finally:
-    print("Alle vorherigen Werte:")
-    for singleinput in inputarray:
-        print(singleinput)
+    print("Durschnittstemperatur: "+str(average(inputarray)))
