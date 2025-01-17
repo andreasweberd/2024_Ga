@@ -1,8 +1,9 @@
-# Verwendung von float für . Zahlen
-temp1 = float(input("Gib die 1. Temperatur ein: "))
-temp2 = float(input("Gib die 2. Temperatur ein: "))
-temp3 = float(input("Gib die 3. Temperatur ein: "))
+def durchschnittstemperatur(i):
+    Temperaturliste = []
+    for x in range(i):
+        Temperaturliste.append(float(input("Temperatur eingeben: ")))
+    print(f'Der Durchschnittwert aller Temperaturen: {str(sum(Temperaturliste)/len(Temperaturliste))}')
 
-durchschnitt = (temp1 + temp2 + temp3) / 3
 
-print(f"Die Durchschnittstemperatur beträgt: {durchschnitt:.2f} Grad")
+# Wie viele Durchschnitte sollen berechnet werden?
+durchschnittstemperatur(5)
