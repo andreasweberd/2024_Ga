@@ -1,0 +1,19 @@
++---------------------------------------------------+
+| Eingabe: Datenmenge (MB), Übertragungsrate (Kbit/s) |
+|                                                   |
+| Wenn Ausnahme: ValueError                         |
+|    -> Ausgabe: Fehler: Bitte geben Sie nur Zahlen ein! |
+| Wenn Ausnahme: ZeroDivisionError                  |
+|    -> Ausgabe: Fehler: Die Übertragungsrate darf nicht 0 sein! |
+| Wenn andere Ausnahme                             |
+|    -> Ausgabe: Ein unerwarteter Fehler ist aufgetreten |
++---------------------------------------------------+
+| Umrechnung von MB in Kbit                         |
+| kbit_size = mb_size * 8192                        |
++---------------------------------------------------+
+| Berechnung der Übertragungszeit                  |
+| seconds = kbit_size / speed                       |
+| minutes = seconds / 60                            |
++---------------------------------------------------+
+| Ausgabe des Ergebnisses: Übertragungszeit         |
++---------------------------------------------------+
