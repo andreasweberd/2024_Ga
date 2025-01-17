@@ -1,0 +1,17 @@
+temperaturen = []  
+
+while True:
+    try:
+        eingabe = input("Geben Sie eine Temperatur ein (oder 'stop', um zu beenden): ")
+        if eingabe.lower() == "stop":
+            break
+        temperatur = float(eingabe)
+        temperaturen.append(temperatur)
+    except ValueError:
+        print("Ungültige Eingabe. Bitte geben Sie eine Zahl ein oder 'stop', um zu beenden.")
+
+if temperaturen:
+    durchschnitt = sum(temperaturen) / len(temperaturen)
+    print(f"Der Durchschnitt der Temperaturen beträgt: {durchschnitt:.2f}")
+else:
+    print("Keine Temperaturen eingegeben.")
