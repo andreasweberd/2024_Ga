@@ -1,0 +1,137 @@
+# Eingabe der Datenmenge (in MB) und der Datenübertragungsrate (in Kbit/s)
+datenmenge_mb = float(input("Geben Sie die Datenmenge in MB ein: "))
+übertragungsrate_kbits = float(input("Geben Sie die Datenübertragungsrate in Kbit/s ein: "))
+
+# Berechnung der Zeit in Sekunden
+zeit_sekunden = (datenmenge_mb * 8 * 1024) / übertragungsrate_kbits
+
+# Umrechnung der Zeit in Minuten
+zeit_minuten = zeit_sekunden / 60
+
+# Ausgabe der berechneten Zeit in Minuten
+print(f"Die Übertragung der Datenmenge von {datenmenge_mb} MB bei einer Datenübertragungsrate von {übertragungsrate_kbits} Kbit/s dauert {zeit_minuten:.2f} Minuten.")
+
+
+Notizen zu den notwendigen Daten, Formeln usw.
+Eingabe: Datenmenge in MB, Datenübertragungsrate in Kbit/s
+Formel zur Berechnung der Zeit:
+Zeit (in Sekunden)
+=
+Datenmenge in MB
+×
+8
+×
+1024
+Daten
+u
+¨
+bertragungsrate in Kbit/s
+(Umrechnung von MB in Kbits: 1 MB = 1024 KBytes = 1024 \times 8 KBits)
+Ausgabe: Zeit in Sekunden und Minuten
+
+
++----------------------------+
+|           Start            |
++----------------------------+
+| Eingabe der Datenmenge in  |
+| MB                         |
++----------------------------+
+| Eingabe der Datenüber-     |
+| tragungsrate in Kbit/s     |
++----------------------------+
+| Berechnung der Zeit in     |
+| Sekunden                   |
+| Zeit = (MB * 8 * 1024) /   |
+| Kbit/s                     |
++----------------------------+
+| Umrechnung der Zeit in     |
+| Minuten                    |
+| Zeit_minuten = Zeit / 60   |
++----------------------------+
+| Ausgabe der berechneten    |
+| Zeit in Minuten            |
++----------------------------+
+|           Ende             |
++----------------------------+
+
+Aufgabe B:
+
+Notizen zu notwendigen Daten und Formeln
+Eingabe: Bruttolohn
+Abzüge:
+Lohnsteuer: 30% des Bruttolohnes
+Solidaritätszuschlag: 5.5% der Lohnsteuer
+Krankenversicherung: 14.6% des Bruttolohnes
+Rentenversicherung: 18.6% des Bruttolohnes
+Arbeitslosenversicherung: 1.5% des Bruttolohnes
+Formeln zur Berechnung der Abzüge:
+Lohnsteuer = Bruttolohn * 0.30
+Solidaritätszuschlag = Lohnsteuer * 0.055
+Krankenversicherung = Bruttolohn * 0.146
+Rentenversicherung = Bruttolohn * 0.186
+Arbeitslosenversicherung = Bruttolohn * 0.015
+Berechnung des Nettolohnes:
+
+Nettolohn=Bruttolohn−(Lohnsteuer+Solidaritätszuschlag+Krankenversicherung+Rentenversicherung+Arbeitslosenversicherung)
+
+
++----------------------------+
+|           Start            |
++----------------------------+
+| Eingabe des Bruttolohnes   |
++----------------------------+
+| Berechnung der Abzüge:     |
+| Lohnsteuer = Bruttolohn *  |
+| 0.30                       |
+| Krankenversicherung =      |
+| Bruttolohn * 0.146         |
+| Rentenversicherung =       |
+| Bruttolohn * 0.186         |
+| Arbeitslosenversicherung = |
+| Bruttolohn * 0.015         |
++----------------------------+
+| Berechnung des Nettolohnes |
+| Nettolohn = Bruttolohn -   |
+| (Lohnsteuer + Kranken-     |
+| versicherung + Renten-     |
+| versicherung + Arbeits-    |
+| losenversicherung)         |
++----------------------------+
+| Ausgabe des Nettolohnes    |
++----------------------------+
+|           Ende             |
++----------------------------+
+
+
+Aufgabe: C)
+Notizen zu notwendigen Daten und FormelnEingabe:
+Geldbetrag (in Euro)
+
+Zinssatz (in Prozent)
+
+Formel zur Berechnung des Zinsbetrages:
+
+Zinsbetrag=Geldbetrag×(Zinssatz100)
+
+
+Ausgabe:Zinsbetrag (in Euro)
+
+
++----------------------------+
+|           Start            |
++----------------------------+
+| Eingabe des Geldbetrages   |
++----------------------------+
+| Eingabe des Zinssatzes in  |
+| Prozent                    |
++----------------------------+
+| Berechnung des Zinsbetrages|
+| Zinsbetrag = Geldbetrag *  |
+| (Zinssatz / 100)           |
++----------------------------+
+| Ausgabe des Zinsbetrages   |
++----------------------------+
+|           Ende             |
++----------------------------+
+
+
