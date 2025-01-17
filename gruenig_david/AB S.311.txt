@@ -56,6 +56,25 @@ Ausgabe: Zeit in Sekunden und Minuten
 
 Aufgabe B:
 
+Notizen zu notwendigen Daten und Formeln
+Eingabe: Bruttolohn
+Abzüge:
+Lohnsteuer: 30% des Bruttolohnes
+Solidaritätszuschlag: 5.5% der Lohnsteuer
+Krankenversicherung: 14.6% des Bruttolohnes
+Rentenversicherung: 18.6% des Bruttolohnes
+Arbeitslosenversicherung: 1.5% des Bruttolohnes
+Formeln zur Berechnung der Abzüge:
+Lohnsteuer = Bruttolohn * 0.30
+Solidaritätszuschlag = Lohnsteuer * 0.055
+Krankenversicherung = Bruttolohn * 0.146
+Rentenversicherung = Bruttolohn * 0.186
+Arbeitslosenversicherung = Bruttolohn * 0.015
+Berechnung des Nettolohnes:
+
+Nettolohn=Bruttolohn−(Lohnsteuer+Solidaritätszuschlag+Krankenversicherung+Rentenversicherung+Arbeitslosenversicherung)
+
+
 +----------------------------+
 |           Start            |
 +----------------------------+
@@ -85,6 +104,18 @@ Aufgabe B:
 
 
 Aufgabe: C)
+Notizen zu notwendigen Daten und FormelnEingabe:
+Geldbetrag (in Euro)
+
+Zinssatz (in Prozent)
+
+Formel zur Berechnung des Zinsbetrages:
+
+Zinsbetrag=Geldbetrag×(Zinssatz100)
+
+
+Ausgabe:Zinsbetrag (in Euro)
+
 
 +----------------------------+
 |           Start            |
