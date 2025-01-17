@@ -4,7 +4,7 @@ array = []
 
 def eingabe():
     for x in range(inputcount):
-        array.append(float(input("Temperaturwert "+str(x)+": ")))
+        array.append(float(input("Temperaturwert "+str(x+1)+": ")))
 
 def average(x):
     return sum(x)/len(x)
