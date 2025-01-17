@@ -1,0 +1,12 @@
+# Eingabe der Datenmenge (in MB) und der Datenübertragungsrate (in Kbit/s)
+datenmenge_mb = float(input("Geben Sie die Datenmenge in MB ein: "))
+übertragungsrate_kbits = float(input("Geben Sie die Datenübertragungsrate in Kbit/s ein: "))
+
+# Berechnung der Zeit in Sekunden
+zeit_sekunden = (datenmenge_mb * 8 * 1024) / übertragungsrate_kbits
+
+# Umrechnung der Zeit in Minuten
+zeit_minuten = zeit_sekunden / 60
+
+# Ausgabe der berechneten Zeit in Minuten
+print(f"Die Übertragung der Datenmenge von {datenmenge_mb} MB bei einer Datenübertragungsrate von {übertragungsrate_kbits} Kbit/s dauert {zeit_minuten:.2f} Minuten.")
