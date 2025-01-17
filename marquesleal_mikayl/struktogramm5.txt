@@ -1,0 +1,24 @@
++-----------------------------------------+
+| Start                                   |
++-----------------------------------------+
+| Eingabe: Datenmenge in MB               |
+| Eingabe: Übertragungsrate in Kbit/s     |
++-----------------------------------------+
+| Datenmenge in Mbit berechnen            |
+| data_volume_mbit = data_volume_mb * 8   |
++-----------------------------------------+
+| Übertragungszeit in Sekunden berechnen  |
+| transfer_time_seconds =                 |
+| data_volume_mbit / transfer_rate_kbps   |
++-----------------------------------------+
+| Übertragungszeit in Minuten berechnen   |
+| transfer_time_minutes =                 |
+| transfer_time_seconds / 60              |
++-----------------------------------------+
+| Ausgabe:                                |
+| Die Übertragungszeit beträgt            |
+| transfer_time_minutes Minuten           |
++-----------------------------------------+
+| Ende                                    |
++-----------------------------------------+
+
