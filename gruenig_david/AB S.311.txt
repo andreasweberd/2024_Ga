@@ -53,3 +53,54 @@ Ausgabe: Zeit in Sekunden und Minuten
 +----------------------------+
 |           Ende             |
 +----------------------------+
+
+Aufgabe B:
+
++----------------------------+
+|           Start            |
++----------------------------+
+| Eingabe des Bruttolohnes   |
++----------------------------+
+| Berechnung der Abzüge:     |
+| Lohnsteuer = Bruttolohn *  |
+| 0.30                       |
+| Krankenversicherung =      |
+| Bruttolohn * 0.146         |
+| Rentenversicherung =       |
+| Bruttolohn * 0.186         |
+| Arbeitslosenversicherung = |
+| Bruttolohn * 0.015         |
++----------------------------+
+| Berechnung des Nettolohnes |
+| Nettolohn = Bruttolohn -   |
+| (Lohnsteuer + Kranken-     |
+| versicherung + Renten-     |
+| versicherung + Arbeits-    |
+| losenversicherung)         |
++----------------------------+
+| Ausgabe des Nettolohnes    |
++----------------------------+
+|           Ende             |
++----------------------------+
+
+
+Aufgabe: C)
+
++----------------------------+
+|           Start            |
++----------------------------+
+| Eingabe des Geldbetrages   |
++----------------------------+
+| Eingabe des Zinssatzes in  |
+| Prozent                    |
++----------------------------+
+| Berechnung des Zinsbetrages|
+| Zinsbetrag = Geldbetrag *  |
+| (Zinssatz / 100)           |
++----------------------------+
+| Ausgabe des Zinsbetrages   |
++----------------------------+
+|           Ende             |
++----------------------------+
+
+
