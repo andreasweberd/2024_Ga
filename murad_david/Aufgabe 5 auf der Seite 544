@@ -1,0 +1,11 @@
+try:
+    kilometer = float(input("Geben Sie die gefahrenen Kilometer ein: "))
+    kraftstoff = float(input("Geben Sie die getankte Menge an Kraftstoff (in Litern) ein: "))
+
+    if kilometer <= 0 or kraftstoff <= 0:
+        print("Die Werte für Kilometer und Kraftstoff müssen größer als 0 sein.")
+    else:
+        durchschnittsverbrauch = (kraftstoff / kilometer) * 100
+        print(f"Der Durchschnittsverbrauch beträgt: {durchschnittsverbrauch:.2f} Liter/100 km")
+except ValueError:
+    print("Ungültige Eingabe! Bitte geben Sie Zahlen ein.")
