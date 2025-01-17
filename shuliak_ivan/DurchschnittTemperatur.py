@@ -1,7 +1,9 @@
-temperatur1 = float(input("Eingabe temperatur1: "))
-temperatur2 = float(input("Eingabe temperatur2: "))
-temperatur3 = float(input("Eingabe temperatur3: "))
+temperaturen = []
 
-durchschnitt = (temperatur1 + temperatur2 + temperatur3) / 3
+for i in range(3):
+    temp = float(input(f"Eingabe temperatur{i+1}: "))
+    temperaturen.append(temp)
+
+durchschnitt = sum(temperaturen) / len(temperaturen)
 
 print(f"Durchschnitt: {durchschnitt}")
