@@ -1,0 +1,7 @@
+kapital = float(input("Geben Sie den Geldbetrag (Kapital) in Euro ein: "))
+
+zinssatz = float(input("Geben Sie den Zinssatz in Prozent ein: "))
+
+zinsen = kapital * (zinssatz / 100)
+
+print(f"Der Zinsbetrag für {kapital:.2f} Euro bei {zinssatz}% Zinsen beträgt {zinsen:.2f} Euro.")
