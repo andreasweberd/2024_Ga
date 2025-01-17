@@ -1,0 +1,18 @@
+((Länge * Breite) * Farbtiefe * (FPS * Zeit)) + (Zeit * Kanäle * Auflösung * Abtastrate)
+
+Länge: 1024 px
+Breite: 1024 px
+Farbtiefe: 16 Bit
+FPS: 30
+Zeit: 10 s
+Kanäle: 2
+Auflösung Audio: 16 Bit
+Abtastrate: 48100 Hz
+
+((1024 * 1024) * 16 * (30 * 10)) + (10 * 2 * 16 * 48100)
+= 5048556800 Bit
+
+5048556800/8 = 631069600 Bytes
+631069600/1000 bytes = 631069.6 Kbytes
+631069.6/1000 = 631.0696 MB
+Total in MB = 631.0696 MB
