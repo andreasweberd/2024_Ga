@@ -10,7 +10,7 @@ def userInput():
 
 def avg(aTemps):
     try:
-        print(f'Temperaturdurchschnitt: {str(sum(aTemps)/len(aTemps))}')
+        print(f'Temperaturdurchschnitt: {str(sum(aTemps)/len(aTemps))}°C')
     except ZeroDivisionError:
         print("Es wurden keine gültigen Werte angegeben.")
 
