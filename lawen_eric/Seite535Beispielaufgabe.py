@@ -14,7 +14,7 @@ try:
 
     print("Durschnittstemperatur: "+str(average(inputarray)))
 except:
-    print("Fehlerhafte Eingabe!")
+    print("Fehlerhafte Eingabe! Eingabe ist keine gültige Zahl!")
 finally:
     print("Alle vorherigen Werte:")
     for singleinput in inputarray:
