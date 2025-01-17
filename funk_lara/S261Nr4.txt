@@ -1,0 +1,28 @@
+﻿S.261 Nr.4
+
+1.) 
+*	Ziel
+*	Definierter Prozess von Anfang bis Ende
+*	Fortlaufende Aufgaben
+
+2.) 
+*	Routineaufgaben sind so strukturiert, dass sie von den Mitarbeitern problemlos 
+durchgeführt und wiederholt werden können, wodurch sie sich auch für 
+Automatisierung eignen. Im Gegensatz dazu sind Projekte einmalige Vorhaben, 
+die einen definierten Anfangs- und Endzeitpunkt habenund detailliert 
+hinsichtlich finanzieller, personeller und zeitlicher Ressourcen geplant werden 
+müssen.
+3.) 
+        1. Lenkungsausschuss: Diese Instanz erteilt den Projektauftrag und genehmigt die 
+Ziele und Planungen. Außerdem überwacht sie den Fortschritt, setzt Prioritäten und trifft 
+grundlegende Entscheidungen.
+        2. Projektleitung: Die Projektleitung, eventuell aufgeteilt in verschiedene 
+Leitungsteams für unterschiedliche Projektabschnitte, berichtet dem 
+Lenkungsausschuss über den Fortschritt des Projekts und verteilt die Aufgaben an die 
+entsprechenden Teams.
+        3. Projektteam: Das Projektteam ist für die praktische Umsetzung des Projekts 
+verantwortlich. Die Teammitglieder werden in der Regel entsprechend ihrer Stärken und 
+Spezialisierungen auf verschiedene Aufgaben verteilt.
+
+4.) 
+        Start -> Planung -> Durchführung -> Kontrolle -> Projektabschluss/Ende
