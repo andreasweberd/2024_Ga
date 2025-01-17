@@ -10,3 +10,46 @@ zeit_minuten = zeit_sekunden / 60
 
 # Ausgabe der berechneten Zeit in Minuten
 print(f"Die Übertragung der Datenmenge von {datenmenge_mb} MB bei einer Datenübertragungsrate von {übertragungsrate_kbits} Kbit/s dauert {zeit_minuten:.2f} Minuten.")
+
+
+Notizen zu den notwendigen Daten, Formeln usw.
+Eingabe: Datenmenge in MB, Datenübertragungsrate in Kbit/s
+Formel zur Berechnung der Zeit:
+Zeit (in Sekunden)
+=
+Datenmenge in MB
+×
+8
+×
+1024
+Daten
+u
+¨
+bertragungsrate in Kbit/s
+(Umrechnung von MB in Kbits: 1 MB = 1024 KBytes = 1024 \times 8 KBits)
+Ausgabe: Zeit in Sekunden und Minuten
+
+
++----------------------------+
+|           Start            |
++----------------------------+
+| Eingabe der Datenmenge in  |
+| MB                         |
++----------------------------+
+| Eingabe der Datenüber-     |
+| tragungsrate in Kbit/s     |
++----------------------------+
+| Berechnung der Zeit in     |
+| Sekunden                   |
+| Zeit = (MB * 8 * 1024) /   |
+| Kbit/s                     |
++----------------------------+
+| Umrechnung der Zeit in     |
+| Minuten                    |
+| Zeit_minuten = Zeit / 60   |
++----------------------------+
+| Ausgabe der berechneten    |
+| Zeit in Minuten            |
++----------------------------+
+|           Ende             |
++----------------------------+
