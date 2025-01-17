@@ -1,0 +1,7 @@
+temperatur1 = float(input("Geben Sie die erste Temperatur ein: "))
+temperatur2 = float(input("Geben Sie die zweite Temperatur ein: "))
+temperatur3 = float(input("Geben Sie die dritte Temperatur ein: "))
+
+durchschnitt = (temperatur1 + temperatur2 + temperatur3) / 3
+
+print(f"Der Durchschnitt der Temperaturen beträgt: {durchschnitt:.2f}")
