@@ -1,0 +1,29 @@
+a) Postleitzahl - Ort  
+Kardinalität: 1:n (eine Postleitzahl gehört zu einem Ort, ein Ort hat mehrere Postleitzahlen)
+
+b) Planet - Mond  
+- Kardinalität: 1:n (ein Planet hat mehrere Monde, ein Mond gehört zu einem Planet)
+
+c) Kunde - Versicherung
+- Kardinalität: m:n (ein Kunde kann mehrere Versicherungen haben, eine Versicherung kann viele Kunden haben)
+
+d) Volleyballspiel - Mannschaft
+- Kardinalität: m:n (ein Spiel hat zwei Mannschaften, eine Mannschaft spielt viele Spiele)
+
+e) Buch - Verlag 
+- Kardinalität: 1:n (ein Verlag veröffentlicht mehrere Bücher, ein Buch gehört zu einem Verlag)
+
+f) Kino - Film  
+- Kardinalität: m:n (ein Kino zeigt viele Filme, ein Film läuft in mehreren Kinos)
+
+g) Land - Fluss
+- Kardinalität: m:n (ein Land hat mehrere Flüsse, ein Fluss verläuft durch mehrere Länder)
+
+h) Klasse - Schüler
+- Kardinalität: 1:n (eine Klasse hat viele Schüler, ein Schüler gehört zu einer Klasse)
+
+i) Mitarbeiter - Gehalt
+- Kardinalität: 1:n (ein Mitarbeiter hat ein Gehalt, viele Mitarbeiter können das gleiche Gehalt haben)
+
+j) Auto - Automarke
+- Kardinalität: 1:n (eine Automarke stellt viele Autos her, jedes Auto gehört zu einer Marke)
