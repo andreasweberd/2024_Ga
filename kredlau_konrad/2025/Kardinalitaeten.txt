@@ -1,0 +1,49 @@
+1.
+   - Kardinalität: Eine Postleitzahl kann mehreren Orten zugeordnet sein (1:N), aber ein Ort hat nur eine Postleitzahl (N:1).
+   - ER-Modell:
+     [Postleitzahl] 1 ───── N [Ort]
+
+2.
+   - Kardinalität: Ein Planet kann mehrere Monde haben (1:N), aber ein Mond gehört nur zu einem Planet (N:1).
+   - ER-Modell:
+     [Planet] 1 ───── N [Mond]
+
+3. 
+   - Kardinalität: Ein Kunde kann mehrere Versicherungen haben (1:N), und eine Versicherung kann mehrere Kunden haben (N:M).
+   - ER-Modell:
+     [Kunde] M ───── N [Versicherung]
+
+4.
+   - Kardinalität: Ein Volleyballspiel besteht aus zwei Mannschaften (1:N), und eine Mannschaft kann an mehreren Volleyballspielen teilnehmen (N:M).
+   - ER-Modell:
+     [Volleyballspiel] M ───── N [Mannschaft]
+
+5.
+   - Kardinalität: Ein Buch wird von einem Verlag veröffentlicht (N:1), und ein Verlag kann viele Bücher veröffentlichen (1:N).
+   - ER-Modell:
+     [Buch] N ───── 1 [Verlag]
+
+6.
+   - Kardinalität: Ein Kino kann mehrere Filme zeigen (1:N), aber ein Film kann in mehreren Kinos gezeigt werden (N:M).
+   - ER-Modell:
+     [Kino] M ───── N [Film]
+
+7.
+   - Kardinalität: Ein Land kann mehrere Flüsse haben (1:N), und ein Fluss kann durch mehrere Länder fließen (N:M).
+   - ER-Modell:
+     [Land] M ───── N [Fluss]
+
+8.
+   - Kardinalität: Eine Klasse hat mehrere Schüler (1:N), aber ein Schüler gehört nur zu einer Klasse (N:1).
+   - ER-Modell:
+     [Klasse] 1 ───── N [Schüler]
+9.
+   - Kardinalität: Ein Mitarbeiter hat ein Gehalt (N:1), aber ein Gehalt kann mehreren Mitarbeitern zugeordnet sein (1:N).
+   - ER-Modell:
+     [Mitarbeiter] N ───── 1 [Gehalt]
+
+10. 
+    - Kardinalität: Ein Auto gehört zu einer Automarke (N:1), und eine Automarke kann viele Autos haben (1:N).
+    - ER-Modell:
+      [Auto] N ───── 1 [Automarke]
+
