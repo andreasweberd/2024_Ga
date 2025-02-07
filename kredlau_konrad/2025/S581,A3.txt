@@ -1,0 +1,29 @@
++------------------+          +-------------------+
+|      Artikel     |          |    MwSt_Satz      |
+|------------------|          |-------------------|
+| ArtikelNr        |          | MwStNr            |
+| Bezeichnung      |          | Prozent           |
+| Listenpreis      |          | Beschreibung      |
+| Bestand          |          +-------------------+
+| Mindestbestand   |
++------------------+                  |
+         |                            |
+         |                            |
+         |                            |
+        hat                           |
+         |                            |
+         +-------------<---+
+                       |
+                       |
+                 +------------------+
+                 |      Kunde       |
+                 |------------------|
+                 | KundenNr         |
+                 | Name             |
+                 | Straße           |
+                 | PLZ              |
+                 | Ort              |
+                 +------------------+
+                           |
+                           |
+                          kauft
