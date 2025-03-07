@@ -1,0 +1,47 @@
+1)
+    a)
+        CREATE TABLE See (
+            SeeNr INT NOT NULL,
+            Name VARCHAR(50),
+            Länge FLOAT,
+            Breite FLOAT,
+            PRIMARY KEY(SeeNr)
+        )
+
+    b)
+        ALTER TABLE See ADD COLUMN Tiefe INT
+
+    c)
+        ALTER TABLE See DROP COLUMN Tiefe;
+        ALTER TABLE See ADD COLUMN Tiefe FLOAT;
+    d)
+        ALTER TABLE See DROP COLUMN Tiefe;
+    e)
+        drop TABLE See;
+
+2)
+    a)
+        INSERT INTO Monitor (Name, Preis, Größe) VALUES ('UW3420K', '343,50 €', '34 Zoll')
+    b)
+        UPDATE Monitor SET Preis = Preis - Preis * 0.05 WHERE Größe = 27
+    c)
+        UPDATE Monitor SET Name = 'HD2771' WHERE MonitorID = 4
+    d)
+        UPDATE Monitor set Preis = Null WHERE MonitorID = 12
+    e)
+        DELETE FROM Monitor WHERE Größe = 17
+
+3)
+    Wohnungsverwaltung.db fehlt
+
+4)
+    a)
+        SELECT max(Strecke_km) as max_km from Fahrt
+    b)
+        SELECT AnzahlGäste from Fahrt WHERE FahrtNr = 2367
+    c)
+        SELECT SUM(Fahrpreis) from Fahrt WHERE Datum like '%02.04.2020%'
+    d)
+        INSERT INTO Fahrt (FahrtNr, Datum, Fahrpreis) values (6789, '25-9-2020', 35.50)
+    e)
+        UPDATE Fahrt SET Fahrpreis = Fahrpreis - 5 WHERE FahrtNr = 3333
