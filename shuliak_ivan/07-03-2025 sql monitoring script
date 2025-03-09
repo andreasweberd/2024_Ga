@@ -1,0 +1,11 @@
+import sqlite3
+database_file = r'C:\Users\tubuf\Documents\schule\LF5\sql\hardwareverwaltung.db'
+connection = sqlite3.connect(database_file)
+cursor = connection.cursor()
+query_input = input('Welsches monitor suchen Sie: ')
+cursor.execute(f'SELECT Name, Preis from Monitor where Name LIKE "%{query_input.upper()}%" ORDER BY Preis asc')
+result_set = cursor.fetchall()
+print("All monitor records:")
+for record in result_set:
+    print(f'Name: {record[0]} - Preis: {record[1]}€')
+connection.close()
