@@ -1,0 +1,8 @@
+create table user(
+  uid INTEGER,
+  name varchar(50),
+  vorname varchar(50),
+  auto varchar(50),
+  kann_fahren INTEGER NOT NULL CHECK (kann_fahren IN (0, 1)), /* Sqlite hat kein Boolian also benutich ein workaround */
+  primary key (uid)
+)
