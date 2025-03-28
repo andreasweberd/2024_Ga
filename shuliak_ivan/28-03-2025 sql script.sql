@@ -1,0 +1,34 @@
+CREATE TABLE User (
+    User_ID INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) UNIQUE NOT NULL,
+    Password VARCHAR(255) NOT NULL,
+    Auto BOOLEAN,
+    Kann_Fahren BOOLEAN
+);
+
+CREATE TABLE Schultage (
+    Schultag_ID INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Nachricht (
+    Nachricht_ID INT PRIMARY KEY AUTO_INCREMENT,
+    Timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    Body TEXT NOT NULL
+);
+
+CREATE TABLE Sammelpunkt (
+    Sammelpunkt_ID INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(255) NOT NULL,
+    Lat DOUBLE,
+    Lon DOUBLE
+);
+
+CREATE TABLE User_Sammelpunkt (
+    User_Sammelpunkt_ID INT PRIMARY KEY AUTO_INCREMENT,
+    User_ID INT,
+    Sammelpunkt_ID INT,
+    FOREIGN KEY (User_ID) REFERENCES User(User_ID),
+    FOREIGN KEY (Sammelpunkt_ID) REFERENCES Sammelpunkt(Sammelpunkt_ID)
+);
