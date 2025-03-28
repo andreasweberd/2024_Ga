@@ -1,0 +1,39 @@
+Create Table User (
+UserId integer primary key,
+Name text(255) not null, 
+Email text(255) not null, 
+Passwort text(255) not null, 
+Auto text(255),
+KannFahren integer(1),
+NachrichtId integer not null,
+SchultageId integer not null,
+foreign key(NachrichtId) references Nachricht(NachrichtId),
+foreign key(SchultageId) references Schultage(SchultageId)
+)
+
+Create Table Sammelpunkt (
+SammelpunktId integer primary key,
+Name text(255) not null,
+Lat real not null,
+Lon real not null
+)
+
+Create Table User_Sammelpunkt(
+UserId integer not NULL,
+SammelpunktId integer not NULL,
+foreign key (UserId) references User(UserId),
+foreign key (SammelpunktId) references Sammelpunkt(SammelpunktId)
+)
+
+Create Table Nachricht (
+Nachricht Id integer primary key,
+timestamp date,
+body varchar
+)
+
+Create Table Schultage (
+SchultageId integer primary key,
+name text(255),
+beginn time,
+ende time
+)
