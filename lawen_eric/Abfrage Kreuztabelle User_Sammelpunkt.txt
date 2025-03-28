@@ -1,0 +1,9 @@
+Abfrage:
+
+SELECT
+	*
+FROM
+	USER
+	LEFT JOIN User_Sammelpunkt ON user.UserId = User_Sammelpunkt.user_id
+WHERE
+	User_Sammelpunkt.sammelpunkt_id = 0
