@@ -1,22 +1,48 @@
 User-Tabelle:
 
-CREATE TABLE USER (UserId int PRIMARY KEY NOT NULL, Name VARCHAR NOT NULL,
- Email VARCHAR NOT NULL, password VARCHAR NOT NULL, auto VARCHAR, kann_fahren BOOLEAN);
+CREATE TABLE USER (
+    UserId int PRIMARY KEY NOT NULL, 
+    Name VARCHAR NOT NULL,
+    Email VARCHAR NOT NULL, 
+    password VARCHAR NOT NULL, 
+    auto VARCHAR, 
+    kann_fahren BOOLEAN
+);
 
 Sammelpunkt-Tabelle:
 
-CREATE TABLE Sammelpunkt (SammelpunktID int PRIMARY KEY NOT NULL, Name VARCHAR NOT NULL,
- lat FLOAT, long FLOAT);
+CREATE TABLE Sammelpunkt (
+    SammelpunktID int PRIMARY KEY NOT NULL, 
+    Name VARCHAR NOT NULL,
+    lat FLOAT, 
+    long FLOAT
+);
 
 User-Sammelpunkt Tabelle:
 
-CREATE TABLE User_Sammelpunkt (ID int PRIMARY KEY NOT NULL, user_id int, sammelpunkt_id int, FOREIGN KEY (user_id) REFERENCES USER(UserId),
-FOREIGN KEY (sammelpunkt_id) REFERENCES Sammelpunkt(SammelpunktID));
+CREATE TABLE User_Sammelpunkt (
+    ID int PRIMARY KEY NOT NULL, 
+    user_id int, 
+    sammelpunkt_id int, 
+    FOREIGN KEY (user_id) REFERENCES USER(UserId),
+    FOREIGN KEY (sammelpunkt_id) REFERENCES Sammelpunkt(SammelpunktID)
+);
 
 Nachricht Tabelle:
 
-CREATE TABLE Nachricht (NachrichtID int PRIMARY KEY NOT NULL, empfänger int, sender int, timestamp TIMESTAMP, body VARCHAR, FOREIGN KEY (empfänger) REFERENCES USER (UserId), FOREIGN KEY (sender) REFERENCES USER (UserId));
+CREATE TABLE Nachricht (
+    NachrichtID int PRIMARY KEY NOT NULL, 
+    empfänger int, 
+    sender int, 
+    timestamp TIMESTAMP, 
+    body VARCHAR, 
+    FOREIGN KEY (empfänger) REFERENCES USER (UserId), 
+    FOREIGN KEY (sender) REFERENCES USER (UserId)
+);
 
 Schultage Tabelle:
 
-CREATE TABLE Schultage (SchultagID int PRIMARY KEY NOT NULL, name varchar);
+CREATE TABLE Schultage (
+    SchultagID int PRIMARY KEY NOT NULL, 
+    name varchar
+);
