@@ -4,6 +4,7 @@ SELECT
 	*
 FROM
 	USER
-	LEFT JOIN User_Sammelpunkt ON user.UserId = User_Sammelpunkt.user_id
+	INNER JOIN User_Sammelpunkt ON user.UserId = User_Sammelpunkt.user_id
+	INNER JOIN Sammelpunkt ON Sammelpunkt.SammelpunktID = User_Sammelpunkt.sammelpunkt_id
 WHERE
-	User_Sammelpunkt.sammelpunkt_id = 0
+	Sammelpunkt.name like "%Zerf%"
