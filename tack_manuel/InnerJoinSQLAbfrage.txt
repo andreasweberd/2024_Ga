@@ -1,0 +1,6 @@
+SELECT * 
+FROM UserSammelp
+INNER JOIN User
+ON User.Name = UserSammelp.User
+INNER JOIN Sammelpunkt
+ON Sammelpunkt.Name = UserSammelp.Sammelpunkt 
